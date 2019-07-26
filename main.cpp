@@ -25,7 +25,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 using namespace std;
 
 // Include temperature conversions header file using a relative path.
-#include "../header/TempConversions.h"
+#include "TempConversions.h"
                                             
 
 // Start of main function

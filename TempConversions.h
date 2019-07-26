@@ -38,9 +38,9 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 // Here, we're just going to include all of the different temperature conversions.
 // Realistically, these files are all short enough that they could be combined into one file.
 // We're just doing it this way as an example.
-#include "../header/CelsiusFahrenheit.h"
-#include "../header/CelsiusKelvin.h"
-#include "../header/FahrenheitKelvin.h" // Because this header also includes the previous two headers,
+#include "CelsiusFahrenheit.h"
+#include "CelsiusKelvin.h"
+#include "FahrenheitKelvin.h" // Because this header also includes the previous two headers,
                                         // there should be redundant declarations.
                                         // In order to fix that problem, they will also use include guards.
 
